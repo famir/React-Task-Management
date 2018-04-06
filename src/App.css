@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #5cb85c; 
+  padding: 5px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.main-body{
+  width: 34%;
+    margin: 5px auto;
+}
+
+.task-container{ 
+    border: 1px solid #dadada;
+    padding: 10px 0px;
+    padding-top: 0;
+}
+.header-container{
+  border-bottom: 1px solid #dadada; 
+    background-color: #DADADA;
+    line-height: 39px;
+    margin-top: 0;
+    color: black;
+}
+.form-container{
+  text-align: left;
+}
+.form-text-container {
+  display: inline-block;
+  width: 80px;
+  padding-left: 5px;
+  color: black;
+}
+
+input[type="text"],input[type="date"] {
+  line-height: 25px;
+  width: 200px;
+}
+.select-container {
+  width: 205px;
+  height: 31px;
+}
+input[type="submit"] {
+  height: 29px;
+  margin: 10px 0;
+  border: 1px solid #dadada;
+  cursor: pointer;
+}
+.button-style{
+  height: 29px;
+  margin: 3px 0;
+  border: 1px solid #dadada;
+cursor: pointer;
+} 
+.Projects { 
+  text-align: left;
+  padding: 0px 3px;
+  font-size: 13px;
+}
+table{
+  width:100%;
+}
+table, th, td {
+  border: 1px solid #DADADA;
+  border-collapse: collapse;
+  text-align: center;
+}
+th {
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
